@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1059923229429",
+    "project_id": "fluttergy-b78ed",
+    "storage_bucket": "fluttergy-b78ed.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1059923229429:android:bf7ecb31b821d3dac7a3bc",
+        "android_client_info": {
+          "package_name": "com.example.flutter_gym"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGUyrhztcQi8V37h-DTAG6fE4Zm7FZXhE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
