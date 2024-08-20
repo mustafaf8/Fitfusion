@@ -36,7 +36,7 @@ class SettingRow extends StatelessWidget {
                 ),
               ),
             ),
-            //profil buyuktur işareti
+            
             Image.asset("lib/assets/img/Icon-Arrow.png",
                 height: 18, width: 18, fit: BoxFit.contain),
           ],
