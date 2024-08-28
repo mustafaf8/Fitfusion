@@ -23,7 +23,7 @@ class _CompleteProfileViewState extends State<CompleteProfileView> {
       
       String uid = FirebaseAuth.instance.currentUser!.uid;
 
-      // Firestore kullanıcı verilerini kaydet
+      // Firestore 
       await FirebaseFirestore.instance.collection('usersData').doc(uid).set({
         'dateOfBirth': _dateController.text.trim(),
         'weight': _weightController.text.trim(),
