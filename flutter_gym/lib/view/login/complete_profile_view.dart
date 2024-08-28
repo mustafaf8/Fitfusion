@@ -20,7 +20,7 @@ class _CompleteProfileViewState extends State<CompleteProfileView> {
 
   void _usersData() async {
     try {
-      // Kullanıcının UID'sini al
+      
       String uid = FirebaseAuth.instance.currentUser!.uid;
 
       // Firestore kullanıcı verilerini kaydet
