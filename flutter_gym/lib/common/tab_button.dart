@@ -27,8 +27,8 @@ class TabButton extends StatelessWidget {
             height: 25,
             fit: BoxFit.fitWidth,
           ),
-          SizedBox(
-            height: isActive ? 8 : 12,
+          Padding(
+            padding: EdgeInsets.only(top: isActive ? 8 : 12),
           ),
           if (isActive)
             Container(
@@ -36,7 +36,7 @@ class TabButton extends StatelessWidget {
               height: 4,
               decoration: BoxDecoration(
                   gradient: LinearGradient(colors: TColor.scondaryG),
-                  borderRadius: BorderRadius.circular(2)),
+                  shape: BoxShape.circle,
             )
         ],
       ),
